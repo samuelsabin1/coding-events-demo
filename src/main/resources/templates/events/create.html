@@ -25,6 +25,24 @@
         <p class="error" th:errors="${event.contactEmail}"></p>
     </div>
     <div class="form-group">
+        <label>
+            <input th:field="${even.}" class="form-control">
+            <p class="" th:errors="${}"></p>
+        </label>
+    </div>
+    <div class="form-group">
+        <label>
+            <input th:field="${}" class="form-control">
+            <p class="" th:errors="${}"></p>
+        </label>
+    </div>
+    <div class="form-group">
+        <label>
+            <input th:field="${}" class="form-control">
+            <p class="" th:errors="${}"></p>
+        </label>
+    </div>
+    <div class="form-group">
         <input type="submit" value="Create" class="btn btn-success">
     </div>
 </form>
